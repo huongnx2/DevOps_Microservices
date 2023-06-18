@@ -8,7 +8,7 @@ dockerpath="huongnx2/udaproject:v1.0.0"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run udaproject --image=$dockerpath --port=80 --labels app=udaproject
+kubectl run udaproject2 --image=$dockerpath --port=80 --labels app=udaproject
 
 # Step 3:
 # List kubernetes pods
